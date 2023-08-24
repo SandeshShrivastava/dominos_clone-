@@ -4,7 +4,7 @@ export default function Aside() {
   return (
     <>
       <div class="coupons">
-        <marquee>Get 50% OFF'And Free Delivery</marquee>
+        <marquee>Get 50% OFF And Free Delivery</marquee>
         <h1 className="heading">
           <img
             src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3DFIRE&psig=AOvVaw0NfmPQ7oRZEfOqtTRIp3iz&ust=1692961975883000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNjh_v2U9YADFQAAAAAdAAAAABAE"
