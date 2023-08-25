@@ -6,7 +6,7 @@ import Mean from './Compponent/Mean';
 import Footer from './Compponent/Footer';
 import Form from './Compponent/Form';
 import Pagelogo from './Compponent/Pagelogo';
-import Cards from './Compponent/Cards';
+import Cards from './Compponent/Cards';S
 function App() {
   
   return (
