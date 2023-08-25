@@ -7,47 +7,58 @@
   font-family: "Raleway", sans-serif;
   font-family: "Roboto Slab", serif;
 }
+
 h2 {
   color: red;
 
   text-shadow: 8px -8px 8px rgb(0, 0, 0);
 }
+
 h2:hover {
   filter: blur(5px);
 }
+
 #bold {
   color: black;
 }
-#bold:hover{
+
+#bold:hover {
   color: red;
   text-shadow: -2px -2px 2px black;
 }
+
 body {
   height: 100%;
   width: 100%;
 
   background-color: rgb(0, 0, 0);
 }
+
 .coupons {
   align-items: center;
   padding: 150px;
   margin: 30px;
 }
+
 .coupons img {
   padding: 8px;
   /* border-radius: 15px; */
 }
+
 .coupons img:hover {
   box-shadow: -3px 3px 3px rgb(152, 114, 41);
   filter: blur(10px);
 }
+
 .headig {
   padding: 20px;
   margin-top: 120px;
 }
+
 #Off {
   text-align: center;
 }
+
 .pzza img {
   display: inline;
   padding: 10px;
@@ -56,42 +67,50 @@ body {
   height: 330px;
   width: 330px;
 }
+
 .contnt p {
   text-indent: 10px;
   padding: 5px;
   margin: 5px;
 }
+
 .contnt p::first-letter {
   color: blue;
   font-size: larger;
   font-weight: bolder;
   font-style: italic;
 }
+
 #Off:hover::first-letter {
   color: blue;
   font-size: 5rem;
   font-family: initial;
 }
+
 footer {
   text-align: center;
   overflow: hidden;
   background-color: rgb(7, 90, 123);
   position: relative;
-  top: 20px;
+  top: 432px;
   padding: 30px;
 }
+
 #imgs {
   padding: 10px;
 
   border-radius: 50%;
 }
+
 #imgs:hover {
   box-shadow: 4px 4px 7px black;
 }
+
 .odr {
   font-weight: 900;
   position: relative;
 }
+
 .odr::after {
   content: "";
   position: absolute;
@@ -102,13 +121,16 @@ footer {
   background-color: rgba(174, 23, 6, 1);
   transition: all ease-in-out 3s;
 }
+
 .odr:hover::after {
   justify-content: center;
   width: 100%;
 }
+
 .odr u:hover {
   color: red;
 }
+
 .gola {
   background: linear-gradient(red, blue, yellow, pink);
   border-radius: 50%;
@@ -122,22 +144,27 @@ footer {
   bottom: 15px;
   transition: all ease-in 2s;
 }
+
 .gola:hover {
   filter: blur(20px);
 }
+
 .pzza {
   display: flex;
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
+
 #contant {
   overflow: hidden;
   padding: 100%;
 }
+
 .container-sm {
   padding: 50px;
 }
+
 .btns {
   background-color: red;
   justify-content: center;
@@ -147,10 +174,12 @@ footer {
   border-radius: 30%;
   padding: 10px;
 }
+
 .btns:hover {
   font-size: 23px;
   box-shadow: -4px -4px 7px red;
 }
+
 #ftr {
   background-color: black;
 }
@@ -160,23 +189,28 @@ footer {
   justify-content: space-between;
   /* text-align: center; */
 }
+
 .about {
   display: flex;
   overflow: hidden;
   justify-content: space-between;
 }
+
 .head1.haed2.head3 {
   color: red;
 }
+
 .pi {
   margin-right: 150px;
 }
+
 #navbar {
   position: fixed;
   width: 100%;
   z-index: 999;
   top: 0;
 }
+
 .imgb {
   padding: 10px;
   position: relative;
@@ -184,10 +218,12 @@ footer {
   width: 90%;
   overflow: hidden;
 }
+
 .container {
   height: 90%;
   width: 100%;
 }
+
 .imgo {
   position: relative;
   top: 10px;
@@ -196,8 +232,111 @@ footer {
   border-radius: 10%;
   overflow: hidden;
 }
+
 .line {
   padding: 5px;
   border: 3px dotted red;
   box-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+
+.main {
+  width: 100%;
+  height: 60%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  z-index: 999;
+  top: 180rem;
+  display: flex;
+  padding: 10px;
+}
+
+.section1 {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(195, 116, 116);
+  position: relative;
+  left: 5px;
+  top: 10px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  transform: rotate(0deg);
+}
+
+.section2 {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(234, 127, 127);
+  position: relative;
+  filter: blur(30px);
+  left: 5px;
+  top: 10px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 3s ease;
+  filter: blur(10px);
+  filter: grayscale(10);
+  background-image: url(https://th.bing.com/th/id/R.aa94646431d306b2136955b18b929a2a?rik=%2f1u5cOQ08gEXrw&riu=http%3a%2f%2fthecouponsapp.s3.amazonaws.com%2fMarch_2015_74_Dominos_coupon_14489.png&ehk=9Khk1pFzTOtUqmGvXICNwG0aUwuCteh77Qh0FvlPVI8%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.section3 {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(203, 120, 120);
+  position: relative;
+  left: 5px;
+  top: 10px;
+  margin: 20px;
+  background-image: url(https://i.pinimg.com/736x/df/99/bf/df99bf8b77569f16beb269414cce3a4b--pizza-hut-coupon.jpg);
+  padding: 10px;
+  transition: all 2.3s ease-in-out;
+  z-index: 999;
+ filter: grayscale(10);
+ filter: blur(10px);
+  border-radius: 10px;
+}
+
+.section1 {
+  background-image: url(https://www.dominos.co.in/files/items/MoroccanSpicePPVG_N.jpg);
+  background-attachment: fixed;
+  /* background-position: center;  This code are type in hover line/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+  background-size: cover;
+  position: relative;
+  z-index: 999;
+  transition: all 2.3s ease-in-out;
+  filter: blur(30px);
+  filter: grayscale(10);
+  
+}
+/* Hover part for Cards */
+.section1:hover {
+  padding: 20px;
+  background-position: center;
+  filter: grayscale(10);
+  filter: blur(0px);
+  transform: rotate(-20deg);
+  transition: all 3s;
+  box-shadow: -3px -8px 3px rgba(255, 175, 2, 0.816);
+}
+.section2:hover {
+  padding: 20px;
+  background-position: center;
+  filter: grayscale(10);
+  filter: blur(0px);
+  /* transform: rotate(-20deg); */
+  width: 400px;
+  transition: all 3s;
+  box-shadow: -3px -8px 3px rgba(255, 175, 2, 0.816);
+}
+.section3:hover {
+  padding: 20px;
+  background-position: center;
+  filter: grayscale(10);
+  filter: blur(0px);
+  transform: rotate(-20deg);
+  transition: all 3s;
+  filter: grayscale(10);
+  filter: blur(0px);
+  box-shadow: -3px -8px 3px rgba(255, 175, 2, 0.816);
 }
