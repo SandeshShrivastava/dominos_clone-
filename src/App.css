@@ -149,7 +149,7 @@ footer {
   filter: blur(20px);
 }
 
-.pzza {
+.pzza{
   display: flex;
   height: 100%;
   width: 100%;
@@ -244,9 +244,10 @@ footer {
   height: 60%;
   background-color: rgb(0, 0, 0);
   position: absolute;
-  z-index: 999;
+  /* z-index: 999; */
   top: 180rem;
   display: flex;
+  justify-content: space-around;
   padding: 10px;
 }
 
@@ -291,7 +292,7 @@ footer {
   background-image: url(https://i.pinimg.com/736x/df/99/bf/df99bf8b77569f16beb269414cce3a4b--pizza-hut-coupon.jpg);
   padding: 10px;
   transition: all 2.3s ease-in-out;
-  z-index: 999;
+  /* z-index: 999; */
  filter: grayscale(10);
  filter: blur(10px);
   border-radius: 10px;
@@ -303,7 +304,7 @@ footer {
   /* background-position: center;  This code are type in hover line/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
   background-size: cover;
   position: relative;
-  z-index: 999;
+  /* z-index: 999; */
   transition: all 2.3s ease-in-out;
   filter: blur(30px);
   filter: grayscale(10);
@@ -317,7 +318,7 @@ footer {
   filter: blur(0px);
   transform: rotate(-20deg);
   transition: all 3s;
-  box-shadow: -3px -8px 3px rgba(255, 175, 2, 0.816);
+  box-shadow: -3px -8px 3px rgba(172, 143, 79, 0.816);
 }
 .section2:hover {
   padding: 20px;

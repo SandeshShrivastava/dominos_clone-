@@ -6,7 +6,7 @@ import Mean from './Compponent/Mean';
 import Footer from './Compponent/Footer';
 import Form from './Compponent/Form';
 import Pagelogo from './Compponent/Pagelogo';
-import Cards from './Compponent/Cards';S
+import Cards from './Compponent/Cards';
 function App() {
   
   return (
@@ -19,7 +19,9 @@ function App() {
    
    <Form/>
    <Cards/>
-   
+   <br />
+   <br />
+   <br />
    <Footer/>
    
 </>
